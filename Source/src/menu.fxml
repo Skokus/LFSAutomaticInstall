@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Button fx:id="createButton" layoutX="30.0" layoutY="295.0" mnemonicParsing="false" onAction="#createScript" prefHeight="53.0" prefWidth="103.0" text="Create Script" />
+      <TextField fx:id="ch3text" layoutX="14.0" layoutY="34.0" prefHeight="25.0" prefWidth="32.0" text="3" />
+      <TextField fx:id="ch4text" layoutX="14.0" layoutY="75.0" prefHeight="25.0" prefWidth="32.0" text="6" />
+      <TextField fx:id="ch5text" layoutX="14.0" layoutY="114.0" prefHeight="25.0" prefWidth="32.0" text="6" />
+      <TextField fx:id="ch6text" layoutX="14.0" layoutY="154.0" prefHeight="25.0" prefWidth="32.0" text="18" />
+      <TextField fx:id="ch7text" layoutX="14.0" layoutY="193.0" prefHeight="25.0" prefWidth="32.0" text="14" />
+      <TextField fx:id="ch8text" layoutX="14.0" layoutY="232.0" prefHeight="25.0" prefWidth="32.0" text="77" />
+      <TextField editable="false" layoutX="73.0" layoutY="34.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 3" />
+      <TextField editable="false" layoutX="73.0" layoutY="75.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 4" />
+      <TextField editable="false" layoutX="73.0" layoutY="114.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 5" />
+      <TextField editable="false" layoutX="73.0" layoutY="154.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 6" />
+      <TextField editable="false" layoutX="73.0" layoutY="193.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 7" />
+      <TextField editable="false" layoutX="73.0" layoutY="232.0" prefHeight="25.0" prefWidth="206.0" text="Number of subchapters in Chapter 8" />
+      <TextArea layoutX="300.0" layoutY="34.0" prefHeight="318.0" prefWidth="276.0" text="Welcome to the Linux From Scratch Script Creation Program. The program was developed for LFS 10.1 and creates script that is included in chapters 3-8. Program should work on slightly altered LFS versions, although the generated script might need some modifying. Generating of the script should take around 1-2 minutes. In the script there are some commands like &quot;passwd&quot; or &quot;tzselect&quot; that need user input, and generated script does NOT handle automatic input (except one time).  The password for the LFS user should be lfs. The program uses &quot;Stable LFS&quot; version of the book, and if LFS version in this book is not 10.1 (numbers of chapters are for this version), it might be required to change number of subchapters in each chapter (one way to check it is to click on the last subchapter of each chapter and see it's subnumber). The script is not fully tested and it is not adviced to run it on the computer with important data. The best way to check this script is through virtual machine." wrapText="true" />
+   </children>
+</Pane>
