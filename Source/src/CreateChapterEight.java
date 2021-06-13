@@ -98,7 +98,7 @@ public class CreateChapterEight {
         String realpackagename = "";
         String dirname = "";
         try {
-            File myObj = new File("src/packagenames.txt");
+            File myObj = new File("packagenames.txt");
             Scanner myReader = new Scanner(myObj);
             if(packagename.length() > 6) {
                 while (myReader.hasNextLine()) {
