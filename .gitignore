@@ -7,7 +7,6 @@
 # Txt file
 
 # Package Files #
-*.jar
 *.zip
 *.tar.gz
 *.rar
